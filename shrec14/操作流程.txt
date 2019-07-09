@@ -1,0 +1,24 @@
+==== Step 01 ====
+render 3D投影到2D图片
+off_to_imgs.m
+重要参数：num_views，MVCNN的角度。
+	   filename = list(ind+6830).name,这个6830是根据自己的需要修改的参数。
+
+==== Step 02 ====
+将投影出的2D图片提取特征值，并生成特征向量，存入对应txt
+Extract_shapoe_features.py
+将特征向量的文件路径和标签存成shape_sh.txt
+Extract_shape_lists.py
+
+==== Step 03 ====
+对所有sketch图片提取特征值，旋转了20个角度，所有的特征向量存在了txt文档中。
+Extract_Features_Train_Sun.py
+将所有的特征向量的文件路径和标签，分别存成sketch_train_sh.txt和sketch_test_sh.txt
+generateListFile_Sun.py
+
+==== Step 04 ====
+对所有的sketch和shapes进行训练，参数可以通过脚本调节，也可以直接在程序中改对应的default数值。
+main.py
+
+
+
