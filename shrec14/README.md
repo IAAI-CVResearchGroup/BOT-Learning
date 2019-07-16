@@ -12,7 +12,7 @@ We propose an importance-driven distance metric learning via optimal transport p
 | DCG | 0.818 | 0.712 |
 | mAP | 0.754 | 0.591 |
 
-![image](https://github.com/IAAI-CVResearchGroup/Batch-wise-Optimal-Transport-Metric/tree/master/shrec14/imgs/framework.jpg)
+![shrec14](imgs/framework.jpg?raw=true)
 
 ### Dependencies
 The codes are based on Python3.6 and implemented in Tensorflow (Version 1.12.0rc0). For extracting features of sketches and shapes, we also need Caffe framework.
