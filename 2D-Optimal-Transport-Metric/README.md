@@ -15,3 +15,4 @@ Please download cifar-10 and cifar-100 from the official website and put these d
 (2) `inference.py`: include the network architecture (Lenet-5 in this version) and optimal transport loss objective.
 
 ## Results
+![Resutls](imgs/Convergence_Rate.jpg?raw=true)
