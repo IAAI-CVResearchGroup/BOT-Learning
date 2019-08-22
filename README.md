@@ -7,4 +7,4 @@ We propose an importance-driven distance metric learning via optimal transport p
 
 ![shrec14](shrec14/imgs/framework.jpg?raw=true)
 
-The proposed batch-wise optimal transport loss is formulated into a deep metric learning framework. Given batches of each modality samples, we use *LeNet-5*, *ResNet-50* and *MVCNN* as f<sup>1</sup>
+The proposed batch-wise optimal transport loss is formulated into a deep metric learning framework. Given batches of each modality samples, we use *LeNet-5*, *ResNet-50* and *MVCNN* as *f*<sup>1</sup><sub>CNN</sub>
