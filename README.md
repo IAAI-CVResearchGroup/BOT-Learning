@@ -12,6 +12,6 @@ The whole framework can be end-to-end trained discriminatively with the new batc
 
 ## Multi-modality Retrieval and Classification
 (1) 2D Images  
-Datasets: *MNIST* and *CIFAR-10*
-Code Framework: Tensorflow
+Datasets: *MNIST* and *CIFAR-10*  
+Code Framework: Tensorflow  
 Detals: ![2dimages](https://github.com/IAAI-CVResearchGroup/Batch-wise-Optimal-Transport-Metric/tree/master/2D-Optimal-Transport-Metric)
