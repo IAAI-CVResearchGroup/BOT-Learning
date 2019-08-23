@@ -1,18 +1,7 @@
 # Batch-wise Optimal Transport Metric for Cross-modality Retrieval
 
 ## Introduction
-We propose an importance-driven distance metric learning via optimal transport programming from batches of samples, construct a new batch-wise optimal transport loss and combine it into an end-to-end deep metric learning manner. It can emphasize hard samples automatically.
-
-| Criterion | Shrec13 | Shrec14 |
-| --- | -- | -- |
-| NN | 0.713 |  0.536 |
-| FT | 0.728 |  0.564 |
-| ST | 0.788 |  0.629 |
-| E | 0.366 |  0.305 |
-| DCG | 0.818 | 0.712 |
-| mAP | 0.754 | 0.591 |
-
-![shrec14](imgs/framework.jpg?raw=true)
+We evaluated the batch-wise optimal transport metric for sketch-based 3D shape retrieval on two large-scale datasets.  
 
 ### Dependencies
 The codes are based on Python3.6 and implemented in Tensorflow (Version 1.12.0rc0). For extracting features of sketches and shapes, we also need Caffe framework.
@@ -45,6 +34,16 @@ Hyper-parameters can be set by shell file (*.sh) or in `main.py` file. Please ru
 ## Test
 In order to computer the criteria in the table, please uncomment `args.phase = 'evaluation'` and change the `self.model_checkpoint_path` in the `./mixed/model.py` to your model path. After that, you can evaluate as:  
 `python ./mixed/main.py`  
+
+## Results
+| Criterion | Shrec13 | Shrec14 |
+| --- | -- | -- |
+| NN | 0.713 |  0.536 |
+| FT | 0.728 |  0.564 |
+| ST | 0.788 |  0.629 |
+| E | 0.366 |  0.305 |
+| DCG | 0.818 | 0.712 |
+| mAP | 0.754 | 0.591 |
 Our pretrained model can be downloaded from [here](https://drive.google.com/drive/folders/1auvPSuElF_kPlZdMeEHV9sZ6H-2CaDxu?usp=sharing).
 
 ## Notes
