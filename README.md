@@ -27,7 +27,7 @@ More details please refer the folder ![shrec14](https://github.com/IAAI-CVResear
 Task: Classification  
 Datasets: *ModelNet10* and *ModelNet40*
 Python Code Framework: PyTorch
-More details plese refer the folder ![3D-Shape-Recognition]
+More details plese refer the folder ![3D-Shape-Recognition](https://github.com/IAAI-CVResearchGroup/Batch-wise-Optimal-Transport-Metric/tree/master/3D-Shape-Recognition)  
 
 ## Notes
 If you have any questions, please let us know: Lin Xu, Han Sun, Zhiyuan Chen {lin.xu5470, han.sun1102, zhiyuan.chen01@gmail.com}.
