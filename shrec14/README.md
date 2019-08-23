@@ -43,9 +43,9 @@ In order to computer the criteria in the table, please uncomment `args.phase = '
 | ST | 0.788 |  0.629 |
 | E | 0.366 |  0.305 |
 | DCG | 0.818 | 0.712 |
-| mAP | 0.754 | 0.591 |
+| mAP | 0.754 | 0.591 |  
+
 Our pretrained model can be downloaded from [here](https://drive.google.com/drive/folders/1auvPSuElF_kPlZdMeEHV9sZ6H-2CaDxu?usp=sharing).
 
 ## Notes
-1. If you have any questions or find any bugs, please let us know: Lin Xu, Han Sun, Zhiyuan Chen {firstname.lastname@horizon.ai}.  
-2. With small changes of the datasets and parameters, the code can also be used to train and evaluate the performance on the SHREC13 dataset.
+With small changes of the datasets and parameters, the code can also be used to train and evaluate the performance on the *SHREC13* dataset.
