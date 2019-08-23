@@ -6,14 +6,14 @@ Codes are tested on Python 3.6 and PyTorch (1.1.0). Please make sure Python Opti
 
 ## Datasets
 
-![*ModelNet40*](supermoe.cs.umass.edu/shape_recog/shaded_images.tar.gz) 
+![*ModelNet40*](supermoe.cs.umass.edu/shape_recog/shaded_images.tar.gz)  
 ![*ModelNet10*]
 
 ## Implementation
-(1) Train
+(1) Train  
 `python3 mvcnn_optimal_transport.py`
 
-(2) Test
+(2) Test  
 The command is the same with training. Please set the parameter of `evaluate` in the code to True and load your checkpoint.
 
 ## Results
