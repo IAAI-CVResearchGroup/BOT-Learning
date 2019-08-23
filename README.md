@@ -14,4 +14,4 @@ The whole framework can be end-to-end trained discriminatively with the new batc
 (1) 2D Images  
 Datasets: *MNIST* and *CIFAR-10*  
 Code Framework: Tensorflow  
-More details please refer the folder ![`2dimages`](https://github.com/IAAI-CVResearchGroup/Batch-wise-Optimal-Transport-Metric/tree/master/2D-Optimal-Transport-Metric)
+More details please refer the folder ![2D-Optimal-Transport-Metric](https://github.com/IAAI-CVResearchGroup/Batch-wise-Optimal-Transport-Metric/tree/master/2D-Optimal-Transport-Metric)
