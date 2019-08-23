@@ -12,6 +12,20 @@ The whole framework can be end-to-end trained discriminatively with the new batc
 
 ## Multi-modality Retrieval and Classification
 (1) 2D Images  
+Task: Classification
 Datasets: *MNIST* and *CIFAR-10*  
-Code Framework: Tensorflow  
-More details please refer the folder ![2D-Optimal-Transport-Metric](https://github.com/IAAI-CVResearchGroup/Batch-wise-Optimal-Transport-Metric/tree/master/2D-Optimal-Transport-Metric)
+Python Code Framework: Tensorflow  
+More details please refer the folder ![2D-Optimal-Transport-Metric](https://github.com/IAAI-CVResearchGroup/Batch-wise-Optimal-Transport-Metric/tree/master/2D-Optimal-Transport-Metric)  
+
+(2) 2D Sketches & 3D Model  
+Task: Retrieval  
+Datasets: *SHREC13* and *SHREC14*  
+Python Code Framework: Tensorflow  
+More details please refer the folder ![shrec14](https://github.com/IAAI-CVResearchGroup/Batch-wise-Optimal-Transport-Metric/tree/master/shrec14)  
+
+(3) 3D Shape Recognition  
+Task: Classification  
+Datasets: *ModelNet10* and *ModelNet40*
+Python Code Framework: PyTorch
+More details plese refer the folder ![3D-Shape-Recognition]
+
