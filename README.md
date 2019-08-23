@@ -20,7 +20,7 @@ More details please refer the folder ![2D-Optimal-Transport-Metric](https://gith
 (2) 2D Sketches & 3D Model  
 Task: Retrieval  
 Datasets: *SHREC13* and *SHREC14*  
-Python Code Framework: Tensorflow  
+Python Code Framework: Tensorflow and Caffe   
 More details please refer the folder ![shrec14](https://github.com/IAAI-CVResearchGroup/Batch-wise-Optimal-Transport-Metric/tree/master/shrec14)  
 
 (3) 3D Shape Recognition  
@@ -29,3 +29,5 @@ Datasets: *ModelNet10* and *ModelNet40*
 Python Code Framework: PyTorch
 More details plese refer the folder ![3D-Shape-Recognition]
 
+## Notes
+If you have any questions, please let us know: Lin Xu, Han Sun, Zhiyuan Chen {lin.xu5470, han.sun1102, zhiyuan.chen01@gmail.com}.
