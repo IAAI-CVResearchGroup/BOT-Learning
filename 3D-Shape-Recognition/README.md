@@ -19,8 +19,8 @@ The command is the same with training. Please set the parameter of `evaluate` in
 ## Results
 | Criterion | ModelNet40 | ModelNet10 |
 | --- | -- | -- |
-| Accuracy | 0.931 | 0.937 |
-| mAP | 0.889 | 0.875 |
+| Accuracy | 93.1 | 93.7 |
+| mAP | 89.2 | 87.5 |
 
 ## Notes
 The code in this folder is for *ModelNet40* dataset. With small changes of the datasets and parameters, the code can also be used to train and evaluate the performance on the *ModelNet10* dataset.
