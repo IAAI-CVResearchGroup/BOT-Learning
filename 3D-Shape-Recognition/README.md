@@ -7,7 +7,7 @@ Codes are tested on Python 3.6 and PyTorch (1.1.0). Please make sure Python Opti
 ## Datasets
 
 ![*ModelNet40*](supermoe.cs.umass.edu/shape_recog/shaded_images.tar.gz)  
-ModelNet10（![Baidu Disk](https://pan.baidu.com/s/1hQmC9Z9adjzofeEwrEPCQw), extract code: l8ss）  
+ModelNet10（![Baidu Disk](https://pan.baidu.com/s/1hQmC9Z9adjzofeEwrEPCQw), extract code: l8ss）    
 (![Google Drive](https://drive.google.com/file/d/13x8jWCu_BhLImMdGWVt7kWvryKC5wL9x/view?usp=sharing))
 
 ## Implementation
